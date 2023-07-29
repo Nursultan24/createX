@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@import "header";
+@import "enjoy";
+@import "about";
+@import "featured";
+@import "benefits";
+@import "events";
+@import "team";
+@import "certificate";
+@import "test";
+@import "posts";
+@import "subscribe";
+@import "footer";
+@import "online";
+@import "overlay";

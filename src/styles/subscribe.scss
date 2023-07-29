@@ -1,0 +1,32 @@
+.subscribe {
+  padding: 120px 0 180px;
+  text-align: center;
+  background: var(--btn-gradient, linear-gradient(45deg, #FF3F3A25 0%, #F75E0525 100%));
+  position: relative;
+  &__label {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    margin-top: 60px;
+  }
+  &__field {
+    width: 422px;
+    border-radius: 4px;
+    border: 1px solid var(--gray-400, #D7DADD);
+    padding-left: 15px;
+    &::placeholder {
+      color: var(--gray-600, #9A9CA5);
+      font-weight: 400;
+    }
+  }
+  &__left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  &__right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

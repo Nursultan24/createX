@@ -1,0 +1,46 @@
+.header {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__route {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+  }
+  &__menu {
+    display: flex;
+    column-gap: 40px;
+  }
+  &__link {
+    color: var(--gray-800, #424551);
+    font-weight: 700;
+    &:hover, &.active {
+      color: #FF3F3A;
+    }
+  }
+  &__btns {
+    display: flex;
+    column-gap: 36px;
+  }
+  &__btn {
+    border-radius: 4px;
+    background: var(--btn-gradient, linear-gradient(45deg, #FF3F3A 0%, #F75E05 100%));
+    padding: 15px 40px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+  }
+  &__login {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
